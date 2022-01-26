@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8934DD0C279F74B200A60BB9 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 8934DD0B279F74B200A60BB9 /* CodeScanner */; };
+		8934DD0E279FA3DD00A60BB9 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934DD0D279FA3DD00A60BB9 /* ImageSaver.swift */; };
+		8965404D279E9BB6009B80B9 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965404C279E9BB6009B80B9 /* ProspectsView.swift */; };
+		8965404F279E9BD7009B80B9 /* PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965404E279E9BD7009B80B9 /* PersonalView.swift */; };
+		89654051279EA097009B80B9 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89654050279EA097009B80B9 /* Prospect.swift */; };
 		89CB262E279D6C5000C0D7D9 /* MeetMeThereApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB262D279D6C5000C0D7D9 /* MeetMeThereApp.swift */; };
 		89CB2630279D6C5000C0D7D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB262F279D6C5000C0D7D9 /* ContentView.swift */; };
 		89CB2632279D6C5D00C0D7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CB2631279D6C5D00C0D7D9 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8934DD0D279FA3DD00A60BB9 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		895DCC2F27A00CD700B075D4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8965404C279E9BB6009B80B9 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		8965404E279E9BD7009B80B9 /* PersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
+		89654050279EA097009B80B9 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 		89CB262A279D6C5000C0D7D9 /* MeetMeThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMeThere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CB262D279D6C5000C0D7D9 /* MeetMeThereApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeThereApp.swift; sourceTree = "<group>"; };
 		89CB262F279D6C5000C0D7D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8934DD0C279F74B200A60BB9 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +63,13 @@
 			isa = PBXGroup;
 			children = (
 				89CB262D279D6C5000C0D7D9 /* MeetMeThereApp.swift */,
+				8965404C279E9BB6009B80B9 /* ProspectsView.swift */,
+				895DCC2F27A00CD700B075D4 /* MyPlayground.playground */,
+				8965404E279E9BD7009B80B9 /* PersonalView.swift */,
 				89CB262F279D6C5000C0D7D9 /* ContentView.swift */,
+				89654050279EA097009B80B9 /* Prospect.swift */,
 				89CB2631279D6C5D00C0D7D9 /* Assets.xcassets */,
+				8934DD0D279FA3DD00A60BB9 /* ImageSaver.swift */,
 				89CB2633279D6C5D00C0D7D9 /* Preview Content */,
 			);
 			path = MeetMeThere;
@@ -83,6 +99,9 @@
 			dependencies = (
 			);
 			name = MeetMeThere;
+			packageProductDependencies = (
+				8934DD0B279F74B200A60BB9 /* CodeScanner */,
+			);
 			productName = MeetMeThere;
 			productReference = 89CB262A279D6C5000C0D7D9 /* MeetMeThere.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +130,9 @@
 				Base,
 			);
 			mainGroup = 89CB2621279D6C5000C0D7D9;
+			packageReferences = (
+				8934DD0A279F74B200A60BB9 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 89CB262B279D6C5000C0D7D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8965404F279E9BD7009B80B9 /* PersonalView.swift in Sources */,
+				8934DD0E279FA3DD00A60BB9 /* ImageSaver.swift in Sources */,
+				89654051279EA097009B80B9 /* Prospect.swift in Sources */,
+				8965404D279E9BB6009B80B9 /* ProspectsView.swift in Sources */,
 				89CB2630279D6C5000C0D7D9 /* ContentView.swift in Sources */,
 				89CB262E279D6C5000C0D7D9 /* MeetMeThereApp.swift in Sources */,
 			);
@@ -271,6 +297,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MeetMeThere/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetMeThere/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Let us to scan qr codes";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your qr code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +328,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MeetMeThere/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetMeThere/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Let us to scan qr codes";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your qr code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +371,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8934DD0A279F74B200A60BB9 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8934DD0B279F74B200A60BB9 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8934DD0A279F74B200A60BB9 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89CB2622279D6C5000C0D7D9 /* Project object */;
 }

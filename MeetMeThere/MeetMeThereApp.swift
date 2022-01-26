@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct MeetMeThereApp: App {
+    @StateObject var prospects = Prospects()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(prospects)
         }
     }
 }
